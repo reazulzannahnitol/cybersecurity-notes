@@ -13,6 +13,7 @@ ls - we can see how many files and folder in our current location
 ~ - takes to home directory
 / - takes to root directory
 cd desktop - with cd we can go to any folder typing folder name
+mkdir - make a new folder
 touch - for creating file
 cat nt.txt - check what is inside text file
 echo "Hello" >> nt.txt - add some texts in a text file
