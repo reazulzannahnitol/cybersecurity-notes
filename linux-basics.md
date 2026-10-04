@@ -12,16 +12,22 @@ ls - we can see how many files and folder in our current location
 ~ - takes to home directory
 / - takes to root directory
 cd desktop - with cd we can go to any folder typing folder name
+cd .. - go back 1 folder
+../ - go back 1 folder
 mkdir - make a new folder
 touch - for creating file
 cat nt.txt - check what is inside text file
 echo "Hello" >> nt.txt - add some texts in a text file
 echo "Hello" > nt.txt - replace completely texts in a text file
 nano nt.txt - we can use this text file as text file right inside terminal (ctrl+O) to save and then (ctrl+x) to exit nano
+mousepad - open a text editor outside of terminal like notepad
+./filename.txt - to run or execute a file or script
+bash filename.txt - can run or execute a script without permission
 less nt.txt - read text documents
 history - show all command history
 whatis - tells which command is what
 whoami - show current logged-in user
 id - display user identity information
 ifconfig or ip a - show ip and all other network details
+ping websitename.com - check network or pulse of a website
 df -h - check disk space
