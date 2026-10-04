@@ -19,4 +19,9 @@ echo "Hello" >> nt.txt - add some texts in a text file
 echo "Hello" > nt.txt - replace completely texts in a text file
 nano nt.txt - we can use this text file as text file right inside terminal (ctrl+O) to save and then (ctrl+x) to exit nano
 less nt.txt - read text documents
-
+history - show all command history
+whatis - tells which command is what
+whoami - show current logged-in user
+id - display user identity information
+ifconfig or ip a - show ip and all other network details
+df -h - check disk space
