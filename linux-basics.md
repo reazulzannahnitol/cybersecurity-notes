@@ -31,3 +31,5 @@ id - display user identity information
 ifconfig or ip a - show ip and all other network details
 ping websitename.com - check network or pulse of a website
 df -h - check disk space
+grep keyword filename.txt - search for text inside a file (case sensitive)
+find filename - find a file
