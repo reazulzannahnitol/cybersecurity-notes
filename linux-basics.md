@@ -33,3 +33,7 @@ ping websitename.com - check network or pulse of a website
 df -h - check disk space
 grep keyword filename.txt - search for text inside a file (case sensitive)
 find filename - find a file
+cp source destination- copy file
+mv source destination - move file
+mv nit.txt ev.txt - rename file
+rm nit.txt - remove file
