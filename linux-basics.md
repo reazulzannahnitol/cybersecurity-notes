@@ -14,9 +14,11 @@ ls - we can see how many files and folder in our current location
 cd desktop - with cd we can go to any folder typing folder name
 cd .. - go back 1 folder
 ../ - go back 1 folder
+../.. - go back 2 folder (more .. means more back folder)
 mkdir - make a new folder
 touch - for creating file
 cat nt.txt - check what is inside text file
+echo "hello world" - it prints texts 
 echo "Hello" >> nt.txt - add some texts in a text file
 echo "Hello" > nt.txt - replace completely texts in a text file
 nano nt.txt - we can use this text file as text file right inside terminal (ctrl+O) to save and then (ctrl+x) to exit nano
@@ -39,3 +41,5 @@ cp source destination- copy file
 mv source destination - move file
 mv nit.txt ev.txt - rename file
 rm nit.txt - remove file
+passwd - change linux password
+
