@@ -3,3 +3,4 @@ if cli suggest full line in grey click right arrow and it will fullfill
 directory means folder
 Absolute path: Starts from the root / and spells out the entire route to a file, no matter where you currently are. Example- /home/kali/Documents/testingnow.txt
 Relative path: Starts from wherever you currently are. Example- Documents/testingnow.txt
+| (pipe) → takes the output of the left command and feeds it as input to the command on the right
