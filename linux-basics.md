@@ -9,6 +9,7 @@ ctrl+c - to cancel or get out of running command
 q - quit from something
 pwd - print working directory (current location)
 ls - we can see how many files and folder in our current location
+ls foldername - show all file and folder in that folder
 ~ - takes to home directory
 / - takes to root directory
 cd desktop - with cd we can go to any folder typing folder name
