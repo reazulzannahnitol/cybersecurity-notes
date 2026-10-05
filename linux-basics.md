@@ -23,7 +23,9 @@ nano nt.txt - we can use this text file as text file right inside terminal (ctrl
 mousepad - open a text editor outside of terminal like notepad
 ./filename.txt - to run or execute a file or script
 bash filename.txt - can run or execute a script without permission
-less nt.txt - read text documents
+less filename.txt - view file page by page (q to quit)
+head filename.txt - read first 10 lines
+tail filename.txt - read last 10 lines
 history - show all command history
 whatis - tells which command is what
 whoami - show current logged-in user
