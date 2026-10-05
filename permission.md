@@ -6,3 +6,7 @@ chmod 700 test.txt - owner gets full access, nobody else gets any
 chmod 644 test.txt - owner read/write, everyone else read-only
 chmod 755 text.txt - owner has all access (rwx = 7), group has read and execute (r-x = 5), others can read and execute (r-x = 5)
 #Another way:
+u: User / Owner, g: Group, o: Others, a: All, r: Read, w: Write, x: Execute
+chmod a+x script.txt - Grant execute access to everyone
+chmod go-w text.txt - Remove write access from group and others
+chmod +x texting.txt - gives all execute permission to this file
