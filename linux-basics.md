@@ -43,4 +43,6 @@ mv source destination - move file
 mv nit.txt ev.txt - rename file
 rm nit.txt - remove file
 passwd - change linux password
+man aircrack-ng - see manual of a command
+aircrack-ng -h or aircrack-ng --help - see list of help of different command or flag 
 
