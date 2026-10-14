@@ -4,3 +4,4 @@ directory means folder
 Absolute path: Starts from the root / and spells out the entire route to a file, no matter where you currently are. Example- /home/kali/Documents/testingnow.txt
 Relative path: Starts from wherever you currently are. Example- Documents/testingnow.txt
 | (pipe) → takes the output of the left command and feeds it as input to the command on the right
+Terminal is just the window where we type commands. Shell is the program that reads those commands and understands them (it has its own language). Bash is one type of shell or program.
