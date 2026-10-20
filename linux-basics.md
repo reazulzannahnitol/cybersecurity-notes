@@ -46,3 +46,7 @@ passwd - change linux password
 man aircrack-ng - see manual of a command
 aircrack-ng -h or aircrack-ng --help - see list of different command options(some work with, -h some with --help)
 
+locate - locate will search through entire database (might not find things that just created because it uses database that updated once a day
+sudo updatedb - Update database
+
+
