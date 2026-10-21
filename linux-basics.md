@@ -49,5 +49,8 @@ aircrack-ng -h or aircrack-ng --help - see list of different command options(som
 locate - locate will search through entire database (might not find things that just created because it uses database that updated once a day
 sudo updatedb - Update database
 whereis - find binary files and it's manual page if available
-PATH VARIABLE - list of directories where usually bina
-
+PATH VARIABLE - A list of directories where executable files are usually located. Common directories include `/usr/bin` and `/usr/sbin`. example: echo $PATH
+which - returns the location of only the binary. example: which aircrack-ng
+find - Searches for files and directories in specified location and its subdirectories by user based on name, type, size, etc. Example: find / -type f -name apache2
+grep - searches for keyword or specific text inside files or command output. example: grep "school" buildings.txt    example: ps aux | grep apache2 (searching if apache2 service is running)
+ps aux - can see all proccesses that are running in the machine
