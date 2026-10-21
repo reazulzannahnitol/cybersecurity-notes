@@ -48,5 +48,6 @@ aircrack-ng -h or aircrack-ng --help - see list of different command options(som
 
 locate - locate will search through entire database (might not find things that just created because it uses database that updated once a day
 sudo updatedb - Update database
-
+whereis - find binary files and it's manual page if available
+PATH VARIABLE - list of directories where usually bina
 
