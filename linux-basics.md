@@ -19,6 +19,8 @@ cd .. - go back 1 folder
 mkdir - make a new folder
 touch - for creating file
 cat nt.txt - check what is inside text file
+cat > filename - create a text file
+cat >> add some text at end - appending text at end (ctrl+D to go back to command)
 echo "hello world" - it prints texts 
 echo "Hello" >> nt.txt - add some texts in a text file
 echo "Hello" > nt.txt - replace completely texts in a text file
