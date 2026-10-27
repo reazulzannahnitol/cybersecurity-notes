@@ -34,6 +34,7 @@ tail filename.txt - read last 10 lines
 tail -n +507 /etc/snort/snort.conf | head -n 6  - start from line 507 and end at 512 line
 head -20 filename.txt - read first 20 lines (same for tail)
 batcat filename.txt - read lines with number
+nl filename.txt - read lines with number
 history - show all command history
 whatis - tells which command is what
 whoami - show current logged-in user
