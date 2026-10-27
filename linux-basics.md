@@ -31,6 +31,9 @@ bash filename.txt - can run or execute a script without permission
 less filename.txt - view file page by page (q to quit)
 head filename.txt - read first 10 lines
 tail filename.txt - read last 10 lines
+tail -n +507 /etc/snort/snort.conf | head -n 6  - start from line 507 and end at 512 line
+head -20 filename.txt - read first 20 lines (same for tail)
+batcat filename.txt - read lines with number
 history - show all command history
 whatis - tells which command is what
 whoami - show current logged-in user
@@ -39,6 +42,7 @@ ifconfig or ip a - show ip and all other network details
 ping websitename.com - check network or pulse of a website
 df -h - check disk space
 grep keyword filename.txt - search for text inside a file (case sensitive)
+kali >cat /etc/snort/snort.conf | grep output - in snort file we will get result only with lines who has word 'output'
 find filename - find a file
 cp source destination- copy file
 mv source destination - move file
