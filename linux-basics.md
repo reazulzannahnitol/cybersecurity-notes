@@ -28,7 +28,7 @@ nano nt.txt - we can use this text file as text file right inside terminal (ctrl
 mousepad - open a text editor outside of terminal like notepad
 ./filename.txt - to run or execute a file or script
 bash filename.txt - can run or execute a script without permission
-less filename.txt - view file page by page (q to quit)
+less filename.txt - view file page by page (q to quit) (/ to find something, n for next of that searched keyword, q to quit)
 head filename.txt - read first 10 lines
 tail filename.txt - read last 10 lines
 tail -n +507 /etc/snort/snort.conf | head -n 6  - start from line 507 and end at 512 line
