@@ -53,6 +53,7 @@ rmdir foldername or rm -r foldername - delete a folder
 passwd - change linux password
 man aircrack-ng - see manual of a command
 aircrack-ng -h or aircrack-ng --help - see list of different command options(some work with, -h some with --help)
+sed - find and replace. example: sed s/u/t/g /usr/share/psswd.txt here s mean substitute and g means global and here u is replaced by t
 
 locate - locate will search through entire database (might not find things that just created because it uses database that updated once a day
 sudo updatedb - Update database
